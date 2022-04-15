@@ -1,9 +1,19 @@
 {
-  "name": "@sudo-nym/rezultz",
+  "name": "@tylerdurham/rezultz",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple library for dealing with results in a type-safe manner.",
+  "author": "TylerDurham <TylerDurham@users.noreply.github.com> (https://github.com/TylerDurham)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylerDurham/lib-rezultz/issues"
+  },
+  "homepage": "https://github.com/TylerDurham/lib-rezultz#readme",
   "main": "index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerDurham/lib-rezultz.git"
+  },
   "files": [
     "/dist"
   ],
@@ -11,8 +21,6 @@
     "build": "tsc",
     "test": "mocha --config .mocharc.jsonc"
   },
-  "author": "TylerDurham <TylerDurham@users.noreply.github.com> (https://github.com/TylerDurham)",
-  "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.3.1",
     "@types/mocha": "^9.1.0",
