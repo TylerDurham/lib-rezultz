@@ -1,6 +1,6 @@
 {
   "name": "@tylerdurham/rezultz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple library for dealing with results in a type-safe manner.",
   "author": "TylerDurham <TylerDurham@users.noreply.github.com> (https://github.com/TylerDurham)",
   "license": "MIT",
@@ -28,5 +28,8 @@
     "mocha": "^9.2.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
