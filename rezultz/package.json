@@ -7,7 +7,7 @@
   "bugs": {
     "url": "https://github.com/TylerDurham/lib-rezultz/issues"
   },
-  "homepage": "https://github.com/TylerDurham/lib-rezultz#readme",
+  "homepage": "https://github.com/TylerDurham/lib-rezultz/#readme",
   "main": "index.js",
   "types": "dist/index.d.ts",
   "repository": {
