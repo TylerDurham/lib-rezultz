@@ -1,11 +1,11 @@
 import * as mocha from 'mocha';
 import { expect } from 'chai';
-import { Rezult, RezultType } from './index';
+import { Rezultz, RezultzType } from './index';
  
 
-function testSuccess<T> (input: T): Rezult<T> {
+function testSuccess<T> (input: T): Rezultz<T> {
     return {
-        type: RezultType.Success,
+        type: RezultzType.Success,
         value: input as T
     }
 }
@@ -15,7 +15,6 @@ describe("Tests the main functionality.", () => {
         let value = `${Math.random()}`
         let rez = testSuccess(value);
 
-        expect(rez.type).to.be.a("number", `rez.type should be a number.`)
-        
+        expect(rez.type).to.be.a("number", `rez.type should be a number.`);        
     })
 })

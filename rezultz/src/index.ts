@@ -1,25 +1,26 @@
-export enum RezultType {
+export enum RezultzType {
     Success = 0,
     Error = 1,
     Warning = 2
 }
 
-export type RezultError = {
-    type: RezultType.Error,
+export type RezultzError = {
+    type: RezultzType.Error,
     message: string,
     [key: string]: any
 }
 
-export type RezultSuccess<T=void> = {
-    type: RezultType.Success,
+export type RezultzSuccess<T=void> = {
+    type: RezultzType.Success,
     value: T,
     [key: string]: any
 }
 
-export type RezultWarning<T=void> = {
-    type: RezultType.Warning,
+export type RezultzWarning<T=void> = {
+    type: RezultzType.Warning,
     value: T,
     message: string
 }
 
-export type Rezult<T> = RezultSuccess<T> | RezultError | RezultWarning
+export type Rezultz<T> = RezultzSuccess<T> | RezultzError | RezultzWarning;
+
