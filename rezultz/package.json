@@ -1,6 +1,6 @@
 {
   "name": "@tylerdurham/rezultz",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A simple library for dealing with results in a type-safe manner.",
   "author": "TylerDurham <TylerDurham@users.noreply.github.com> (https://github.com/TylerDurham)",
   "license": "MIT",
